@@ -20,101 +20,80 @@ function App() {
   const projects: Project[] = [
     {
       id: 1,
-      title: "SearchLesson",
+      title: "WikipediaBot",
       description:
-        "Advanced lesson and file search system with intelligent filtering and categorization. Features include real-time search, file management, and user authentication with role-based access control.",
-      technologies: ["Node.js", "Express.js", "MongoDB", "JWT", "REST API"],
-      githubUrl: "https://github.com/nuriddinmahmud/SearchLesson",
+        "A simple Wikipedia telegram bot that fetches information from Wikipedia and sends it to the user. Built with Nest.js and TypeScript.",
+      technologies: ["Nest.js"],
+      githubUrl: "https://github.com/AZIZJON9821/wikipediabot.git",
       image:
         "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop&crop=center",
     },
     {
       id: 2,
-      title: "ArbaitWorking",
+      title: "Blog",
       description:
-        "Comprehensive work management platform for team collaboration and project tracking. Includes task management, time tracking, and real-time notifications with modern UI/UX design.",
-      technologies: ["TypeScript", "React", "Node.js", "Express", "PostgreSQL"],
-      githubUrl: "https://github.com/TOTEM-ABU/ArbaitWorking",
+        "A blog app built with React, Nest.js, and PostgreSQL. Features user authentication, authorization, and CRUD operations for posts and comments.",
+      technologies: ["TypeScript", "React", "Nest.js", "PostgreSQL"],
+      githubUrl: "https://github.com/AZIZJON9821/BLOG-INSTA.git",
       image:
         "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop&crop=center",
     },
     {
       id: 3,
-      title: "FullAuthWithNest",
+      title: "HospitalBOT",
       description:
-        "Complete authentication and authorization system built with NestJS. Features include JWT tokens, role-based access control, password encryption, and comprehensive security measures.",
-      technologies: ["NestJS", "TypeScript", "JWT", "Passport", "bcrypt"],
-      githubUrl: "https://github.com/TOTEM-ABU/FullAuthWithNest",
+        "Hospital bot is halped Users,  Admin panel,Doctor panel,User panel ",
+      technologies: ["TypeScript", "Nest.js", "Posgresql","Telegram bot"],
+      githubUrl: "https://github.com/AZIZJON9821/bothospital.git",
       image:
-        "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
     },
     {
       id: 4,
-      title: "OLX-backend",
+      title: "Web Hospital",
       description:
-        "Full-featured marketplace backend API similar to OLX. Includes user management, product listings, search functionality, messaging system, and payment integration.",
+        "A modern healthcare website built with Next.js, Tailwind CSS, and TypeScript. Features a responsive design and interactive user experience.",
       technologies: [
-        "TypeScript",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Socket.io",
+        "Next.js",
+        "Telegrambot",
+      "Taypescript",
       ],
-      githubUrl: "https://github.com/TOTEM-ABU/OLX-backend",
-      image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
-    },
-    {
-      id: 5,
-      title: "NornLightProject",
-      description:
-        "Lightweight project management tool with real-time collaboration features. Includes task boards, team management, file sharing, and progress tracking with intuitive interface.",
-      technologies: [
-        "React",
-        "TypeScript",
-        "Node.js",
-        "Express",
-        "Socket.io",
-        "MongoDB",
-      ],
-      githubUrl: "https://github.com/TOTEM-ABU/NornLightProject",
+      githubUrl: "https://github.com/AZIZJON9821/Web_Hospital.git",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop&crop=center",
     },
+  
     {
-      id: 6,
-      title: "E-Commerce API",
+      id: 5,
+      title: "Furniture-Web",
       description:
-        "Complete e-commerce backend API with product management, order processing, payment integration, and admin dashboard. Built with modern architecture and best practices.",
-      technologies: ["TypeScript", "Node.js", "Express", "MySQL", "Stripe API"],
-      githubUrl: "https://github.com/TOTEM-ABU/e-commerce-api",
+        " A modern furniture website built with React, HTML, and CSS. Features a responsive design and interactive user experience.",
+      technologies: [
+        "React",
+        "Html",
+        "Css",
+        "JavaScript",
+      ],
+      githubUrl: "https://github.com/AZIZJON9821/furniture-web.git",
       image:
         "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
     },
+  
     {
-      id: 7,
-      title: "Task Manager",
+      id: 6,
+      title: "Fotball Academy ",
       description:
-        "Advanced task management application with drag-and-drop interface, priority levels, deadline tracking, and team collaboration features. Built with React and Node.js.",
-      technologies: ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
-      githubUrl: "https://github.com/TOTEM-ABU/task-manager",
+         " Our Football Academy develops young talent with professional training. We inspire players to excel on and off the field. ",
+      technologies: ["NestJS", "TypeScript", "PostgreSQL"],
+      githubUrl: "https://github.com/AZIZJON9821/FootbalClub.git",
       image:
-        "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=400&h=250&fit=crop&crop=center",
+        "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop&crop=center",
     },
-    {
-      id: 8,
-      title: "Blog API",
-      description:
-        "RESTful blog API with user authentication, content management, comment system, and search functionality. Features include markdown support and image upload.",
-      technologies: ["NestJS", "TypeScript", "PostgreSQL", "JWT", "Multer"],
-      githubUrl: "https://github.com/TOTEM-ABU/blog-api",
-      image:
-        "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=250&fit=crop&crop=center",
-    },
+
+ 
   ];
 
   const skills = [
-    // Backend Skills
     { name: "Node.js", level: 90, category: "backend" },
     { name: "Express.js", level: 85, category: "backend" },
     { name: "NestJS", level: 80, category: "backend" },
@@ -127,7 +106,6 @@ function App() {
     { name: "bcrypt", level: 75, category: "backend" },
     { name: "Passport.js", level: 70, category: "backend" },
     { name: "Multer", level: 75, category: "backend" },
-    // Frontend Skills
     { name: "React.js", level: 85, category: "frontend" },
     { name: "Next.js", level: 80, category: "frontend" },
     { name: "Redux", level: 75, category: "frontend" },
@@ -304,7 +282,6 @@ function App() {
 
   return (
     <div className="app">
-      {/* Scroll Progress Indicator */}
       <div
         className="scroll-indicator"
         style={{ transform: `scaleX(${scrollProgress / 100})` }}
@@ -314,7 +291,7 @@ function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="nav-logo">
-            <span className="logo-text">AbuCoder</span>
+            <span className="logo-text">AZCoder</span>
           </div>
 
           <div className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
@@ -374,7 +351,7 @@ function App() {
         <div className="hero-content">
           <div className="hero-text">
             <h1 className="hero-title">
-              Hi, I'm <span className="highlight">Abubakr</span>
+              Hi, I'm <span className="highlight">Azizjon !</span>
             </h1>
             <h2 className="hero-subtitle">Full Stack Developer</h2>
             <p className="hero-description">
@@ -399,7 +376,7 @@ function App() {
           <div className="hero-image">
             <div className="code-animation">
               <div className="code-line">const developer = {`{`}</div>
-              <div className="code-line"> name: "AbuCoder",</div>
+              <div className="code-line"> name: "AZCoder",</div>
               <div className="code-line"> skills: ["React", "Node.js"],</div>
               <div className="code-line">
                 {" "}
@@ -610,8 +587,8 @@ function App() {
 
               <div className="resume-download scroll-scale-in">
                 <a
-                  href="/resume.pdf"
-                  download="AbuCoder_Resume.pdf"
+                  href="/Azizjon_Bozorboyev_Resume.pdf"
+                  download="Azizjon_Bozorboyev_Resume.pdf"
                   className="resume-btn"
                 >
                   <i className="fas fa-download"></i>
@@ -621,7 +598,7 @@ function App() {
 
               <div className="contact-links">
                 <a
-                  href="https://github.com/TOTEM-ABU"
+                  href="https://github.com/AZIZJON9821"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-link scroll-rotate-in"
@@ -630,7 +607,7 @@ function App() {
                   <span>GitHub</span>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/aabdujalilov/"
+                  href="https://www.linkedin.com/in/azizjon-bozorboyev-19256a377/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-link scroll-rotate-in"
@@ -639,7 +616,7 @@ function App() {
                   <span>LinkedIn</span>
                 </a>
                 <a
-                  href="https://t.me/guidovanrossumm"
+                  href="https://t.me/a717_jr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact-link scroll-rotate-in"
@@ -656,7 +633,7 @@ function App() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2025 AbuCoder. All rights reserved.</p>
+          <p>&copy; 2025 AZCoder. All rights reserved.</p>
         </div>
       </footer>
     </div>
