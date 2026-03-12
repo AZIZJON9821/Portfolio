@@ -20,110 +20,106 @@ function App() {
   const projects: Project[] = [
     {
       id: 1,
-      title: "WikipediaBot",
+      title: "KinoSite",
       description:
-        "A simple Wikipedia telegram bot that fetches information from Wikipedia and sends it to the user. Built with Nest.js and TypeScript.",
-      technologies: ["Nest.js"],
-      githubUrl: "https://github.com/AZIZJON9821/wikipediabot.git",
+        "A modern movie website built with Next.js, Tailwind CSS, and TypeScript. Features a responsive design and interactive user experience.",
+      technologies: ["Next.js","Tailwind CSS","TypeScript","NestJS","PostgreSQL","Telegram bot","React","HTML","CSS","JavaScript","Node.js","Express.js","TypeScript","Redux","Material-UI","Ant Design","Tailwind CSS","Responsive Design"],
+      githubUrl: "https://kino-site-beta.vercel.app/",
       image:
         "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop&crop=center",
     },
+       
     {
       id: 2,
-      title: "Blog",
-      description:
-        "A blog app built with React, Nest.js, and PostgreSQL. Features user authentication, authorization, and CRUD operations for posts and comments.",
-      technologies: ["TypeScript", "React", "Nest.js", "PostgreSQL"],
-      githubUrl: "https://github.com/AZIZJON9821/BLOG-INSTA.git",
-      image:
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=250&fit=crop&crop=center",
-    },
-    {
-      id: 3,
-      title: "HospitalBOT",
-      description:
-        "Hospital bot is halped Users,  Admin panel,Doctor panel,User panel ",
-      technologies: ["TypeScript", "Nest.js", "Posgresql","Telegram bot"],
-      githubUrl: "https://github.com/AZIZJON9821/bothospital.git",
-      image:
-        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
-    },
-    {
-      id: 4,
       title: "Web Hospital",
       description:
         "A modern healthcare website built with Next.js, Tailwind CSS, and TypeScript. Features a responsive design and interactive user experience.",
       technologies: [
         "Next.js",
-        "Telegrambot",
-      "Taypescript",
+      "TypeScript",
+      "React",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "TypeScript",
+      "Redux",
+      "Material-UI",
+      "Ant Design",
+      "Tailwind CSS",
+      "Responsive Design",
+      
       ],
-      githubUrl: "https://github.com/AZIZJON9821/Web_Hospital.git",
+      githubUrl: "https://hospital-front-ten.vercel.app/",
       image:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop&crop=center",
     },
   
     {
-      id: 5,
-      title: "Furniture-Web",
+      id: 3,
+      title: "UzumShop",
       description:
-        " A modern furniture website built with React, HTML, and CSS. Features a responsive design and interactive user experience.",
+        "A modern e-commerce website built with React, HTML, and CSS. Features a responsive design and interactive user experience.",
       technologies: [
         "React",
         "Html",
         "Css",
         "JavaScript",
+        "Node.js",
+        "PostgreSQL",
+        "MongoDB",
+        "Express.js",
+        "TypeScript",
+        "Redux",
+        "Material-UI",
+        "Ant Design",
+        "Tailwind CSS",
+        "Responsive Design",
+        
       ],
-      githubUrl: "https://github.com/AZIZJON9821/furniture-web.git",
+      githubUrl: "https://uzumshop.vercel.app/",
       image:
         "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop&crop=center",
     },
   
-    {
-      id: 6,
-      title: "Fotball Academy ",
-      description:
-         " Our Football Academy develops young talent with professional training. We inspire players to excel on and off the field. ",
-      technologies: ["NestJS", "TypeScript", "PostgreSQL"],
-      githubUrl: "https://github.com/AZIZJON9821/FootbalClub.git",
-      image:
-        "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=400&h=250&fit=crop&crop=center",
-    },
+  
 
  
   ];
 
   const skills = [
-    { name: "Node.js", level: 90, category: "backend" },
-    { name: "Express.js", level: 85, category: "backend" },
-    { name: "NestJS", level: 80, category: "backend" },
-    { name: "TypeScript", level: 85, category: "backend" },
-    { name: "JavaScript", level: 90, category: "backend" },
-    { name: "REST APIs", level: 85, category: "backend" },
-    { name: "JWT", level: 80, category: "backend" },
-    { name: "Socket.io", level: 75, category: "backend" },
-    { name: "Git", level: 80, category: "backend" },
-    { name: "bcrypt", level: 75, category: "backend" },
-    { name: "Passport.js", level: 70, category: "backend" },
-    { name: "Multer", level: 75, category: "backend" },
-    { name: "React.js", level: 85, category: "frontend" },
-    { name: "Next.js", level: 80, category: "frontend" },
-    { name: "Redux", level: 75, category: "frontend" },
-    { name: "HTML5", level: 90, category: "frontend" },
-    { name: "CSS3", level: 85, category: "frontend" },
-    { name: "Sass/SCSS", level: 80, category: "frontend" },
-    { name: "Material-UI", level: 75, category: "frontend" },
-    { name: "Ant Design", level: 70, category: "frontend" },
-    { name: "Tailwind CSS", level: 75, category: "frontend" },
-    { name: "Responsive Design", level: 85, category: "frontend" },
-    // Database & Tools
-    { name: "MongoDB", level: 75, category: "database" },
-    { name: "PostgreSQL", level: 70, category: "database" },
-    { name: "MySQL", level: 80, category: "database" },
-    { name: "Redis", level: 65, category: "database" },
-    { name: "Mongoose", level: 75, category: "database" },
-    { name: "Sequelize", level: 70, category: "database" },
-  ];
+{ name: "Node.js", level: 75, category: "backend" },
+{ name: "Express.js", level: 73, category: "backend" },
+{ name: "NestJS", level: 72, category: "backend" },
+{ name: "TypeScript", level: 74, category: "backend" },
+{ name: "JavaScript", level: 75, category: "backend" },
+{ name: "REST APIs", level: 74, category: "backend" },
+{ name: "JWT", level: 72, category: "backend" },
+{ name: "Socket.io", level: 70, category: "backend" },
+{ name: "Git", level: 73, category: "backend" },
+{ name: "bcrypt", level: 69, category: "backend" },
+{ name: "Passport.js", level: 68, category: "backend" },
+{ name: "Multer", level: 70, category: "backend" },
+
+{ name: "React.js", level: 74, category: "frontend" },
+{ name: "Next.js", level: 72, category: "frontend" },
+{ name: "Redux", level: 69, category: "frontend" },
+{ name: "HTML5", level: 75, category: "frontend" },
+{ name: "CSS3", level: 74, category: "frontend" },
+{ name: "Sass/SCSS", level: 71, category: "frontend" },
+{ name: "Material-UI", level: 69, category: "frontend" },
+{ name: "Ant Design", level: 68, category: "frontend" },
+{ name: "Tailwind CSS", level: 72, category: "frontend" },
+{ name: "Responsive Design", level: 74, category: "frontend" },
+
+// Database & Tools
+{ name: "MongoDB", level: 72, category: "database" },
+{ name: "PostgreSQL", level: 70, category: "database" },
+{ name: "MySQL", level: 73, category: "database" },
+{ name: "Redis", level: 65, category: "database" },
+{ name: "Mongoose", level: 71, category: "database" },
+{ name: "Sequelize", level: 69, category: "database" },]
 
   const scrollToSection = (sectionId: string) => {
     setActiveSection(sectionId);
@@ -552,7 +548,7 @@ function App() {
                       className="project-btn"
                     >
                       <i className="fab fa-github"></i>
-                      View Code
+                      View Project
                     </a>
                     {project.liveUrl && (
                       <a
